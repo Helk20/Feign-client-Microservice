@@ -30,6 +30,7 @@ On crée un service de voiture avec les mêmes dépendances que le service clien
 Dans le code, nous avons défini une interface appelée ClientService qui joue le rôle d'un client Feign pour interagir avec le microservice client. Cette interface déclare des méthodes qui correspondent aux points d'extrémité du microservice client et utilise des annotations Feign pour spécifier le chemin d'accès et la méthode HTTP.
 # Pour exécuter le projet, suivez les étapes suivantes :
 1.Téléchargez le code source à partir du référentiel GitHub en utilisant la commande de clonage.
+</br>
 2.Personnalisez les configurations de base de données dans les fichiers application.properties de chaque microservice selon vos besoins.
 3.Lancez l'exécution de tous les microservices nécessaires, notamment Eureka, GateWay, Client, et Voiture.
 4.Verifier si les services sont enregistres sous Eureka , comme suit :
