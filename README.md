@@ -25,7 +25,7 @@ Pour démontrer la communication entre les services en proceder par la creation 
 On peut visualiser les client en visitant : http://localhost:8088/clients comme suit :
 
 ![Capture d'écran 2023-12-07 172653](https://github.com/Helk20/Feign-client-Microservice/assets/92260626/6fd94db8-cc56-46db-bdae-31a7da605cfd)
-## III-Création du service Voiture 
+## IV-Création du service Voiture 
 On crée un service de voiture avec les mêmes dépendances que le service client 
 Dans le code, nous avons défini une interface appelée ClientService qui joue le rôle d'un client Feign pour interagir avec le microservice client. Cette interface déclare des méthodes qui correspondent aux points d'extrémité du microservice client et utilise des annotations Feign pour spécifier le chemin d'accès et la méthode HTTP.
 # Pour exécuter le projet, suivez les étapes suivantes :
