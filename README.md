@@ -32,6 +32,7 @@ Dans le code, nous avons défini une interface appelée ClientService qui joue l
 1.Téléchargez le code source à partir du référentiel GitHub en utilisant la commande de clonage.
 </br>
 2.Personnalisez les configurations de base de données dans les fichiers application.properties de chaque microservice selon vos besoins.
+</br>
 3.Lancez l'exécution de tous les microservices nécessaires, notamment Eureka, GateWay, Client, et Voiture.
 </br>
 4.Verifier si les services sont enregistres sous Eureka , comme suit :
