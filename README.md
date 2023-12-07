@@ -20,6 +20,7 @@ Pour démontrer la communication entre les services en proceder par la creation 
 @Lombok Bibliothèque d'annotation Java qui permet de réduire le code passe-partout.
 
 On peut visualiser les client en visitant : http://localhost:8088/clients comme suit :
+
 ![Capture d'écran 2023-12-07 172653](https://github.com/Helk20/Feign-client-Microservice/assets/92260626/6fd94db8-cc56-46db-bdae-31a7da605cfd)
 ## III-Création du service Voiture 
 On crée un service de voiture avec les mêmes dépendances que le service client 
