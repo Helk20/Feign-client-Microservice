@@ -1,4 +1,4 @@
-# Clients-Voitures-Microservice
+# Clients-Voitures-Microservices
 Ce projet vise à développer une compréhension approfondie de l'architecture micro-service. Les axes centraux de cet apprentissage englobent la création et l'enregistrement de micro-services, la connexion à une base de données MySQL, l'établissement d'un micro-service Gateway, et l'implémentation d'une communication synchrone entre les micro-services en utilisant l'outil OPENFEIGN
 ## Architecture
 ![archi](https://github.com/Helk20/Feign-client-Microservice/assets/92260626/e8642a3c-ee6a-412b-abfc-16d405cd57c1)
