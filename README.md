@@ -33,6 +33,7 @@ Dans le code, nous avons défini une interface appelée ClientService qui joue l
 </br>
 2.Personnalisez les configurations de base de données dans les fichiers application.properties de chaque microservice selon vos besoins.
 3.Lancez l'exécution de tous les microservices nécessaires, notamment Eureka, GateWay, Client, et Voiture.
+</br>
 4.Verifier si les services sont enregistres sous Eureka , comme suit :
 ![Capture d'écran 2023-12-07 173353](https://github.com/Helk20/Feign-client-Microservice/assets/92260626/82e2afe5-67c2-406e-8552-97b426fa931a)
 5.Lancer le navigateur et tester les APIs
