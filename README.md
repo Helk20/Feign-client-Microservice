@@ -1,6 +1,9 @@
 # Clients-Voiture-Microservice
 Ce projet vise à développer une compréhension approfondie de l'architecture micro-service. Les axes centraux de cet apprentissage englobent la création et l'enregistrement de micro-services, la connexion à une base de données MySQL, l'établissement d'un micro-service Gateway, et l'implémentation d'une communication synchrone entre les micro-services en utilisant l'outil OPENFEIGN
+## Architecture
 ![archi](https://github.com/Helk20/Feign-client-Microservice/assets/92260626/e8642a3c-ee6a-412b-abfc-16d405cd57c1)
+# Requirements 
+Docher + Java 17
 # Etapes
 ## I-Création du service discovery Eureka
 Eureka est un service de découverte de microservices développé par Netflix et fait partie du projet Spring Cloud. Son objectif principal est de faciliter la gestion dynamique des instances de services dans un environnement distribué de microservices.
