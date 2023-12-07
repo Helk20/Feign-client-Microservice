@@ -3,7 +3,7 @@ Ce projet vise à développer une compréhension approfondie de l'architecture m
 ## Architecture
 ![archi](https://github.com/Helk20/Feign-client-Microservice/assets/92260626/e8642a3c-ee6a-412b-abfc-16d405cd57c1)
 # Requirements 
-Docher + Java 17
+Docker + Java 17
 # Etapes
 ## I-Création du service discovery Eureka
 Eureka est un service de découverte de microservices développé par Netflix et fait partie du projet Spring Cloud. Son objectif principal est de faciliter la gestion dynamique des instances de services dans un environnement distribué de microservices.
