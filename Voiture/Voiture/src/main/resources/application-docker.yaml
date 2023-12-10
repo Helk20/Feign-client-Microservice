@@ -1,0 +1,28 @@
+server:
+  port: 8089
+
+spring:
+  application:
+    name: SERVICE-VOITURE
+  cloud:
+    discovery:
+      enabled: true
+
+  datasource:
+    url : jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/voiture?createDatabaseIfNotExist=true
+    username : ${MYSQL_USER:root}
+    password : ${MYSQL_PASSWORD:}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${EUREKA_SERVER:eureka-server}:8761/eureka/
+      fetch-registry: true
+      register-with-eureka: true
+      enabled: true

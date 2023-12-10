@@ -8,6 +8,15 @@ services:
     build: ./Eureka_Server/Eureka_Server
     networks:
       - app-network
+  
+  gateway:
+    container_name: gateway
+    restart: always
+    ports:
+      - "8885:8885"
+    build: ./GateWay/GateWay
+    networks:
+      - app-network
 
   service-client:
     container_name: service-client
@@ -46,6 +55,7 @@ services:
     depends_on:
       - eureka-server
       - mysql
+      - service-client
     networks:
       - app-network
 
